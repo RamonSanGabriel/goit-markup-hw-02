@@ -122,49 +122,33 @@ body {
   letter-spacing: 0.32px;
 }
 /* CSS for Portfolio */
-.filter-button {
-  display: inline-flex;
-  list-style-type: none;
-  justify-content: center;
-  width: 100%;
-}
-.filter-buttons {
+.filter-section button {
   cursor: pointer;
   border-radius: 4px;
-  /* border: 1px solid var(--cornflower, #E7E9FC); */
-  /* background: var(--cloud, #F4F4FD); */
-  padding: 12px 24px;
-  margin-left: 24px;
-  /* color: var(--iris, #4D5AE5); */
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  border: 1px solid var(--cornflower, #E7E9FC);
+  background: var(--cloud, #F4F4FD);
+  color: var(--iris, #4D5AE5);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5rem;
   letter-spacing: 0.64px;
 }
-.filter-buttons:hover {
-  /* color: var(--white, #fff); */
+.filter-section button:hover {
+  color: var(--white, #fff);
   border-radius: 4px;
-  /* background: var(--ocean, #404BBF); */
+  background: var(--ocean, #404BBF);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .card-name {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.5rem;
+  letter-spacing: 0.4px;
 }
 .card-content {
-  /* color: var(--slate, #434455); */
-  line-height: 1.5rem;
-  letter-spacing: 0.32px;
-}
-.section1-portfolio p,
-.section2-portfolio p,
-.section3-portfolio p {
-  /* color: var(--slate, #434455); */
+  color: var(--slate, #434455);
   line-height: 1.5rem;
   letter-spacing: 0.32px;
 }
@@ -194,8 +178,6 @@ body {
 }
 .footer-container p {
   color: var(--cloud, #F4F4FD);
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
   line-height: 1.5rem; 
   letter-spacing: 0.32px;
   text-decoration: none;
