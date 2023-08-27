@@ -3,6 +3,7 @@ body {
   color: var(--navyblue, #2E2F42);
 }
 .navigation-logo-web,
+.navigation-logo-web,
 .footer-logo-web {
   color: var(--iris, #4D5AE5);
   font-family: Raleway;
@@ -16,13 +17,6 @@ body {
 }
 .navigation-logo-studio {
   color: var(--navyblue, #2E2F42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.313rem;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 .navigation-section a {
   color: var(--navyblue);
@@ -175,7 +169,6 @@ body {
   letter-spacing: 0.32px;
 }
 .footer-container {
-  position: relative;
   background-color: var(--iris, #2E2F42);
   width: 100%;
 }
@@ -199,9 +192,8 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
-.footer-content {
-  display: inline-block;
-  /* color: var(--cloud, #F4F4FD); */
+.footer-container p {
+  color: var(--cloud, #F4F4FD);
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5rem; 
