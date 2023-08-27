@@ -2,14 +2,12 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--navyblue, #2E2F42);
 }
-/* .navigation-logo {
-  text-decoration: none;
-} */
 .navigation-logo-web,
 .footer-logo-web {
   color: var(--iris, #4D5AE5);
   font-family: Raleway;
   font-size: 18px;
+  font-style: normal;
   font-weight: 800;
   line-height: 1.313rem;
   letter-spacing: 0.54px;
@@ -63,7 +61,7 @@ body {
   margin-right: auto;
   text-transform: capitalize;
 }
-.hero-header span {
+.hero-container span {
   text-transform: lowercase;
 }
 .hero-button {
